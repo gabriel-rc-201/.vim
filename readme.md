@@ -4,8 +4,8 @@ NOTA: o arquivo .vimrc tem que ficar do diretório /home
 
 tema utilizado dracula 
 
-Plugins:
-	- nerdtree
-	- multiplos cursores
-	- auto-pairs
-	- polyglot
+### Plugins:
+> - nerdtree
+> - multiplos cursores
+> - auto-pairs
+> - polyglot
