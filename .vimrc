@@ -1,9 +1,9 @@
 call plug#begin() "pra usar isso tem que instalr o vim-plug
-Plug 'terryma/vim-multiple-cursors'  "multiplos cursores 
-Plug 'sheerun/vim-polyglot' "cor da sintax do código 
-Plug 'jiangmiao/auto-pairs' "completa os pares de () {} etc e faz a quebra de linha automática 
-Plug 'preservim/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
+    Plug 'terryma/vim-multiple-cursors'  "multiplos cursores 
+    Plug 'sheerun/vim-polyglot' "cor da sintax do código 
+    Plug 'jiangmiao/auto-pairs' "completa os pares de () {} etc e faz a quebra de linha automática 
+    Plug 'preservim/nerdtree'
+    Plug 'Xuyuanp/nerdtree-git-plugin'
 call plug#end()
 
 " definindo o tema do vim
@@ -12,6 +12,12 @@ syntax enable
 colorscheme dracula
 set number
 set relativenumber
+
+"mudar a tabulação
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4 
+set expandtab
 
 "definindo as teclas de atalho
 
