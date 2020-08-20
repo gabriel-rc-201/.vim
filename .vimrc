@@ -27,8 +27,8 @@ let mapleader="\<space>" "define a barra de espaço como sendo a tecla leader do
 nnoremap <F10> ggVG
 
 "copia tudo que estiver selecionado para area de transferência
-"NOTA ainda está a melhorar
-nnoremap <leader>c "+y 
+"só funciona no modo visual
+vnoremap <leader>c "+y 
 
 "cola da area de transferência 
 nnoremap <leader>v "+gP
