@@ -2,7 +2,10 @@ call plug#begin() "pra usar isso tem que instalr o vim-plug
 Plug 'terryma/vim-multiple-cursors'  "multiplos cursores 
 Plug 'sheerun/vim-polyglot' "cor da sintax do código 
 Plug 'jiangmiao/auto-pairs' "completa os pares de () {} etc e faz a quebra de linha automática 
+Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 call plug#end()
+
 " definindo o tema do vim
 packadd! dracula
 syntax enable
