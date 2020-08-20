@@ -26,3 +26,7 @@ nnoremap <leader>c "+y
 
 "cola da area de transferência 
 nnoremap <leader>v "+gP
+
+"atalhor para a nerdtree
+nnoremap <leader>n :NERDTreeToggle<CR>
+
