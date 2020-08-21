@@ -28,4 +28,8 @@ no modo normal digite:
 :PlugInstall
 ```
 
-pronto curta o seu vim personalizado
+### Resultado:
+
+![Tela inicial vim personalizado](img/vim_inicial.png)
+
+![Tela com código](img/vim_src.png)
