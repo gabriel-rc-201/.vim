@@ -1,11 +1,33 @@
-## Configurações do meu vim 
+## Vim Personalizado
 
-NOTA: o arquivo .vimrc tem que ficar do diretório /home
+### Requisitos:
 
-tema utilizado dracula 
+[vim-plug](https://github.com/junegunn/vim-plug)
 
-### Plugins:
-> - nerdtree
-> - multiplos cursores
-> - auto-pairs
-> - polyglot
+### Tema utilizado: [dracula](https://draculatheme.com/vim)
+
+### Instalação:
+
+clone o repositório no diretório /home:
+
+```git
+git clone https://github.com/gabrieldk/.vim.git ~
+```
+copie o arquivo .vim para o seu /home
+
+```shell
+cp ~/.vim/.vimrc ~
+```
+
+abra o vim
+
+```shell
+vim
+```
+no modo normal digite:
+
+```vimscript
+:PlugInstall
+```
+
+pronto curta o seu vim personalizado
