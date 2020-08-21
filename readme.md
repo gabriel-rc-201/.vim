@@ -1,8 +1,6 @@
 ## Vim Personalizado
 
-### Requisitos:
-
-[vim-plug](https://github.com/junegunn/vim-plug)
+### Requisitos: [vim-plug](https://github.com/junegunn/vim-plug)
 
 ### Tema utilizado: [dracula](https://draculatheme.com/vim)
 
@@ -19,7 +17,7 @@ copie o arquivo .vim para o seu /home
 cp ~/.vim/.vimrc ~
 ```
 
-abra o vim
+abra o vim, digite no terminal:
 
 ```shell
 vim
