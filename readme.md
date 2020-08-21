@@ -37,7 +37,8 @@ no modo normal digite:
 ### Atalhos presonalizados
 
 | Atalho | Descrição |
-| F10 | seleciona tudo (usar no modo normal)|
-| leader + c | copia o que estiver selecionado no modo visual para a area de transferencia |
-| leader + v | cola da area de transferencia (usar no modo normal) |
-| leader + n | abre a lista de diretórios (usar no modo normal) |
+ ------- | ---------
+ F10 | seleciona tudo (usar no modo normal)|
+ leader + c | copia o que estiver selecionado no modo visual para a area de transferencia 
+ leader + v | cola da area de transferencia (usar no modo normal) 
+ leader + n | abre a lista de diretórios (usar no modo normal) 
