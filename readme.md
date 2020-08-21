@@ -30,6 +30,7 @@ no modo normal digite:
 
 ### Resultado:
 
-![Tela inicial vim personalizado](img/vim_inicial.png)
+Tela inical  | Tela com código
+:-----------:|:----------------:
 
-![Tela com código](img/vim_src.png)
+![Tela inicial vim personalizado](img/vim_inicial.png)|![Tela com código](img/vim_src.png)
