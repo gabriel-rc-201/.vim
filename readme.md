@@ -13,13 +13,13 @@ git clone https://github.com/gabrieldk/.vim.git ~
 ```
 copie o arquivo .vim para o seu /home
 
-```shell
+```shellscript
 cp ~/.vim/.vimrc ~
 ```
 
 abra o vim, digite no terminal:
 
-```shell
+```shellscript
 vim
 ```
 no modo normal digite:
@@ -36,9 +36,11 @@ no modo normal digite:
 
 ### Atalhos presonalizados
 
-| Atalho | Descrição |
- ------- | ---------
- F10 | seleciona tudo (usar no modo normal)|
+| Atalhos | Descrição |
+ -------- | ---------
+ F10 | seleciona tudo (usar no modo normal)
  leader + c | copia o que estiver selecionado no modo visual para a area de transferencia 
  leader + v | cola da area de transferencia (usar no modo normal) 
  leader + n | abre a lista de diretórios (usar no modo normal) 
+
+**NOTA:** A tecla leader personalizada ficou sendo o espaço
