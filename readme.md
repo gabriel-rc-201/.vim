@@ -17,15 +17,22 @@ copie o arquivo .vim para o seu /home
 cp ~/.vim/.vimrc ~
 ```
 
-abra o vim, digite no terminal:
+abra o `vim`, digite no terminal:
 
-```shellscript
-vim
-```
 no modo normal digite:
 
 ```vimscript
 :PlugInstall
+```
+saia do vim `:wq`
+
+no terminal digit
+```shellscript
+apt install build-essential cmake python3-dev
+```
+```shellscript
+cd ~/.vim/plugged/YouCompleteMe
+python3 install.py --all
 ```
 
 ### Resultado:
