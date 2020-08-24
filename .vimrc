@@ -4,6 +4,8 @@ call plug#begin() "pra usar isso tem que instalr o vim-plug
     Plug 'jiangmiao/auto-pairs' "completa os pares de () {} etc e faz a quebra de linha automática 
     Plug 'preservim/nerdtree'
     Plug 'Xuyuanp/nerdtree-git-plugin'
+    Plug 'ycm-core/YouCompleteMe' "autocomplete
+    Plug 'vim-airline/vim-airline' "airline a barra em baixo
 call plug#end()
 
 " definindo o tema do vim
@@ -36,3 +38,10 @@ nnoremap <leader>v "+gP
 "atalhor para a nerdtree
 nnoremap <leader>n :NERDTreeToggle<CR>
 
+"mostra o buffer de comandos 
+set showcmd
+
+set tw=80 "quebra automática de texto na coluna 80
+
+"marcação da coluna 83 (quebra do texto)
+set colorcolumn=83
