@@ -41,7 +41,5 @@ nnoremap <leader>n :NERDTreeToggle<CR>
 "mostra o buffer de comandos 
 set showcmd
 
-set tw=80 "quebra automática de texto na coluna 80
-
 "marcação da coluna 83 (quebra do texto)
 set colorcolumn=83
