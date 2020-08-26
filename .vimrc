@@ -6,6 +6,9 @@ call plug#begin() "pra usar isso tem que instalr o vim-plug
     Plug 'Xuyuanp/nerdtree-git-plugin'
     Plug 'ycm-core/YouCompleteMe' "autocomplete
     Plug 'vim-airline/vim-airline' "airline a barra em baixo
+    Plug 'tpope/vim-surround' "mudar os arredores do texto () {} [] e tags
+    Plug 'tpope/vim-fugitive' "ver a branch atual do git e mais um bucado de coisa rsrs
+
 call plug#end()
 
 " definindo o tema do vim
@@ -43,3 +46,16 @@ set showcmd
 
 "marcação da coluna 83 (quebra do texto)
 set colorcolumn=83
+
+" air-line
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+
+"let g:airline#extensions#hunks#enabled=1
+"let g:airline#extensions#branch#enabled=1
+
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+let g:airline_symbols.space = "\ua0"
+
