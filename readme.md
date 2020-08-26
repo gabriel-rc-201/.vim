@@ -41,6 +41,8 @@ python3 install.py --all
 
 ![Tela com código](img/vim_src.png)
 
+![Tela com código sem NERDTree](img/vim_src_woutNT.png)
+
 ### Atalhos presonalizados
 
 | Atalhos | Descrição |
