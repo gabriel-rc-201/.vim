@@ -1,4 +1,5 @@
 call plug#begin() "pra usar isso tem que instalr o vim-plug
+
     Plug 'terryma/vim-multiple-cursors'  "multiplos cursores 
     Plug 'sheerun/vim-polyglot' "cor da sintax do código 
     Plug 'jiangmiao/auto-pairs' "completa os pares de () {} etc e faz a quebra de linha automática 
@@ -8,6 +9,7 @@ call plug#begin() "pra usar isso tem que instalr o vim-plug
     Plug 'vim-airline/vim-airline' "airline a barra em baixo
     Plug 'tpope/vim-surround' "mudar os arredores do texto () {} [] e tags
     Plug 'tpope/vim-fugitive' "ver a branch atual do git e mais um bucado de coisa rsrs
+    Plug 'mattn/emment-vim' "auto complit para tags html e css
 
 call plug#end()
 
