@@ -1,17 +1,33 @@
-call plug#begin() "pra usar isso tem que instalr o vim-plug
 
-    Plug 'terryma/vim-multiple-cursors'  "multiplos cursores 
-    Plug 'sheerun/vim-polyglot' "cor da sintax do código 
-    Plug 'jiangmiao/auto-pairs' "completa os pares de () {} etc e faz a quebra de linha automática 
-    Plug 'preservim/nerdtree'
-    Plug 'Xuyuanp/nerdtree-git-plugin'
-    Plug 'ycm-core/YouCompleteMe' "autocomplete
-    Plug 'vim-airline/vim-airline' "airline a barra em baixo
-    Plug 'tpope/vim-surround' "mudar os arredores do texto () {} [] e tags
-    Plug 'tpope/vim-fugitive' "ver a branch atual do git e mais um bucado de coisa rsrs
-    Plug 'mattn/emment-vim' "auto complit para tags html e css
+set hidden
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
-call plug#end()
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin() "instalar o vundle
+    " alternatively, pass a path where Vundle should install plugins
+    "call vundle#begin('~/some/path/here')
+
+    " let Vundle manage Vundle, required
+    Plugin 'VundleVim/Vundle.vim'
+    Plugin 'tpope/vim-fugitive' "diz qual a branch e essas coisas do git
+    Plugin 'terryma/vim-multiple-cursors'  "multiplos cursores 
+    Plugin 'sheerun/vim-polyglot' "cor da sintax do código 
+    Plugin 'jiangmiao/auto-pairs' "completa os pares de () {} etc e faz a quebra de linha automática 
+    Plugin 'preservim/nerdtree'
+    Plugin 'Xuyuanp/nerdtree-git-plugin'
+    Plugin 'vim-airline/vim-airline' "airline a barra em baixo
+    Plugin 'tpope/vim-surround' "mudar os arredores do texto () {} [] e tags
+    Plugin 'mattn/emmet-vim' "auto complit para tags html e css
+    Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
+    Plugin 'zxqfl/tabnine-vim' "auto complete
+
+    " All of your Plugins must be added before the following line
+
+call vundle#end()
+
+filetype plugin indent on    " required
 
 " definindo o tema do vim
 packadd! dracula
@@ -21,9 +37,9 @@ set number
 set relativenumber
 
 "mudar a tabulação
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4 
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2 
 set expandtab
 
 "definindo as teclas de atalho
@@ -57,3 +73,13 @@ if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
 let g:airline_symbols.space = "\ua0"
+
+" Rolamento
+set scrolloff=8
+set sidescrolloff=15
+set sidescroll=1
+
+
+" Markdown configurations
+
+filetype plugin on

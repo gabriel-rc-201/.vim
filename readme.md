@@ -1,6 +1,6 @@
 ## Vim Personalizado
 
-### Requisitos: [vim-plug](https://github.com/junegunn/vim-plug)
+### Requisitos: [Vundle](https://github.com/VundleVim/Vundle.vim)
 
 ### Tema utilizado: [dracula](https://draculatheme.com/vim)
 
@@ -17,7 +17,7 @@ copie o arquivo .vim para o seu /home
 cp ~/.vim/.vimrc ~
 ```
 
-abra o `vim`, digite no terminal:
+abra o `vim`, digite no terminal
 
 no modo normal digite:
 
@@ -39,11 +39,15 @@ python3 install.py --all
 
 ![Tela inicial vim personalizado](img/vim_inicial.png)
 
+
 ![Tela com código](img/vim_src.png)
+
 
 ![Tela com código sem NERDTree](img/vim_src_woutNT.png)
 
+
 ### Atalhos presonalizados
+
 
 | Atalhos | Descrição |
  -------- | ---------
